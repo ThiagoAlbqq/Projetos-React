@@ -1,0 +1,4 @@
+Foram usados:
+
+npm install axios
+npm install react-icons
