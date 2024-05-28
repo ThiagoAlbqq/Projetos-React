@@ -17,6 +17,7 @@ const Login = () => {
         <h1>Acesse o Sistema</h1>
         <div className="input-field">
           <input
+            autoComplete="username"
             type="email"
             placeholder="Digite o seu email"
             onChange={(e) => setUsername(e.target.value)}
@@ -25,6 +26,7 @@ const Login = () => {
         </div>
         <div className="input-field">
           <input
+            autoComplete="current-password"
             type="password"
             placeholder="Digite a sua senha"
             onChange={(e) => setPassword(e.target.value)}
