@@ -1,0 +1,29 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 77.5px);
+}
+
+.dados {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding: 25px;
+  gap: 10px;
+  border: 1px solid;
+  max-width: 450px;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.description {
+  display: block;
+}

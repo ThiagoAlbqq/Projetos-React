@@ -1,0 +1,21 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-card img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .movies-card img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .movies-card img {
+    width: 200px;
+  }
+}
