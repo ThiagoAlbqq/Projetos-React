@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container div {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container .voltar {
+  color: red;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.repo_link {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.repo_link:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
